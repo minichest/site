@@ -1,0 +1,113 @@
+.one, .two, .three, .four, .five, .six {
+    border: none;
+    float: left;
+    margin: 5px;
+    position: relative;
+    left: 10px;
+
+    width: 15%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 40px;
+}
+
+/* Overall Media */
+
+@media (max-width: 1232px) {
+    .t2 {
+        display: none;
+    }
+
+    span > i {
+        font-size: 50px;
+    }
+
+    .whites:hover::before {
+        transform: scaleX(0);
+    }
+
+    .active:hover::before {
+        transform: scaleX(0);
+    }
+}
+
+@media (max-width: 704px) {
+    .seci-1 {
+        width: 350px;
+    }
+}
+
+@media (min-width: 603px) {
+    p {
+        display: inline;
+    }
+}
+
+@media (max-width: 602px) {
+    .one, .two, .three, .four, .five, .six {
+        margin: 35px;
+        font-size: 90px;
+    }
+
+    .sn1, .sn2, .sn3 {
+        position: relative;
+        left: 20px;
+    }
+
+    .seci-1 {
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .text-2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    span {
+        display: block;
+        position: relative;
+        left: -50px;
+    }
+}
+
+@media (max-width: 433px) {
+    .one, .two, .three, .four, .five, .six {
+        margin: 40px;
+        font-size: 60px;
+        position: relative;
+        left: 10px;
+    }
+
+    a > span {
+        position: relative;
+        text-align: center;
+        top: 15px;
+        left: 25px;
+
+    }
+
+    .sn1, .sn2, .sn3 {
+        position: relative;
+        left: -10px;
+    }
+}
+
+@media (max-width: 302px) {
+    .one, .two, .three, .four, .five, .six {
+        margin: 40px;
+        font-size: 50px;
+    }
+    
+    .seci-1 {
+        width: 150px;
+    }
+
+    .sn1, .sn2, .sn3 {
+        position: relative;
+        left: -30px;
+    }
+}
+
