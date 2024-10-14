@@ -1,0 +1,23 @@
+:root {
+    --accent: #6caabd;
+}
+
+.thumbnail {
+    float: left;
+    width: 300px
+}
+
+.righter {
+    position: relative;
+    left: 10px;
+}
+
+article {
+    border: none;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.pagination {
+    color:#6caabd;
+}
